@@ -457,12 +457,10 @@ $(document).ready(function() {
         $('.main-subscribe .form-checkbox').slideDown();
     });
 
-    $('.header-menu-col-title a').click(function(e) {
-        if ($(window).width() < 1140) {
-            $(this).parent().toggleClass('open');
-            e.preventDefault();
-        }
-    });
+    // $('.header-menu-col-title a').click(function(e) {
+    //     $(this).parent().toggleClass('open');
+    //     e.preventDefault();
+    // });
 
     $(window).on('load resize scroll', function() {
         $('.main-splash-item, .directions-item, .tasks-item, .challenges-item, .indicators-group').each(function() {
@@ -488,6 +486,48 @@ $(window).on('load resize scroll', function() {
         $('.up-link').css({'margin-bottom': curDiff});
     } else {
         $('.up-link').css({'margin-bottom': 0});
+    }
+});
+
+$(window).on('load', function() {
+    if ($('.header-submenu-1').length > 0) {
+        if ($('.header-submenu-1-inner').hasClass('slick-slider')) {
+            $('.header-submenu-1-inner').slick('unslick');
+        }
+        var curWidth = 0;
+        $('.header-submenu-1-item').each(function() {
+            curWidth += $(this).width();
+        });
+        if (curWidth > $('.header-submenu-1-wrap').width()) {
+            var curIndex = $('.header-submenu-1-item').index($('.header-submenu-1-item.active'));
+            if (curIndex < 0) {
+                curIndex = 0;
+            }
+            $('.header-submenu-1-inner').slick({
+
+                centerPadding: "0px",
+                edgeFriction:10,
+                dots: false,
+                rows: 0,
+                infinite: false,
+                variableWidth: true,
+                prevArrow: '<button type="button" class="slick-prev"></button>',
+                nextArrow: '<button type="button" class="slick-next"></button>',
+                initialSlide: 0,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 0,
+                            variableWidth: false
+                        }
+                    }
+                ]
+            });
+        }
     }
 });
 
@@ -748,3 +788,17 @@ function windowClose() {
         $('html').removeClass('window-open');
     }
 }
+
+$(window).on('load', function() {
+
+    $(".header-menu-col-title").click(function () {
+        $(this).parent().find(".header-menu-col-list").slideToggle({
+            duration: 200,
+            complete: function () {
+                var button =  $(this).parent().find(".header-menu-col-title");
+                if ($(this).is(':visible')) button.addClass('open');
+                else button.removeClass('open');
+            }
+        });
+    });
+});

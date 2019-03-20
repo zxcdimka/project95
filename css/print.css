@@ -1,0 +1,201 @@
+* {color:#000 !important; background:none !important}
+
+.on-print {display:block !important}
+.no-print {display:none !important}
+
+html {min-width:0 !important; width:1000px !important; height:auto !important}
+body {min-width:0 !important; width:1000px !important; height:auto !important; color:#000 !important}
+
+a {color:#000 !important}
+a.link-orange {color:#000 !important}
+
+h1 {color:#000 !important}
+.h1-sub {color:#000 !important}
+h2 {color:#000 !important}
+h3 {color:#000 !important}
+h4 {color:#000 !important}
+ul {list-style:disc inside !important}
+ul li {padding-left:0 !important}
+ul li:before {display:none !important}
+ol {list-style:decimal inside !important}
+ol li {padding-left:0 !important}
+ol li:before {display:none !important}
+hr {height:0 !important; border-top:1px solid #000 !important}
+
+.wrapper th {color:#000 !important}
+.wrapper td {border-color:#000 !important}
+.wrapper thead+tbody tr:first-child td {border-color:#000 !important}
+.wrapper thead+tbody tr:last-child td {border-color:#000 !important}
+
+.signature-text strong {color:#000 !important}
+.signature-social {display:none !important}
+
+form {display:none !important}
+
+.btn-min {display:none !important}
+.btn-med {display:none !important}
+.btn-max {display:none !important}
+
+.pager {display:none !important}
+
+.wrapper {min-width:0 !important; width:1000px !important; min-height:0 !important}
+.wrapper-inner {padding:0 !important}
+
+.main-page .wrapper {background:none !important}
+
+header {background:none !important; border-bottom:3px solid #000 !important; padding:36px 0 40px 0 !important}
+
+.main-page header {position:static !important; left:auto !important; top:auto !important; right:auto !important; z-index:auto !important}
+
+.logo {background:none !important; margin:0 !important}
+.logo a {display:none !important}
+
+.title {text-shadow:none !important; color:#000 !important; margin:12px 0 0 29px !important}
+
+.header-menu-link {display:none !important}
+.header-menu-open {overflow:visible !important}
+.header-menu-open .header-menu {display:none !important}
+.header-search {display:none !important}
+.header-lang {display:none !important}
+
+nav {display:none !important}
+
+.header-submenu {display:none !important}
+.header-submenu-2 {display:none !important}
+
+.breadcrumbs span {background:none !important}
+
+footer {min-width:0 !important; width:1000px !important; margin:0 !important; height:auto !important; border-top:3px solid #000 !important; padding:36px 0 40px 0 !important; background:none !important; text-shadow:none !important}
+.footer-nav {display:none !important}
+.footer-contacts {display:none !important}
+.footer-menu {display:none !important}
+.footer-social {display:none !important}
+
+.up-link.visible {display:none !important}
+
+.content-title-number {background:none !important; border:2px solid #b2b2b2 !important; box-sizing:border-box !important; color:#000 !important; line-height:44px !important}
+.content-title-row-sub .content-title-number {background:none !important}
+.content-title-section {color:#000 !important}
+.content-title-text {color:#000 !important}
+.content-title-row:before {display:none !important}
+.content-title-row-sub:before {display:none !important}
+.content-title-arrow-print {position:absolute !important; left:18px !important; top:-32px !important}
+
+.main-splash {display:none !important}
+
+.main-news {padding-top:40px !important}
+.main-news-title a {display:none !important}
+.main-news-wrap {padding:0 !important}
+.main-news-item-group {color:#000 !important}
+.main-news-item-group a {color:#000 !important}
+.main-news-item-title a {color:#000 !important}
+.main-news-item-date {color:#000 !important}
+
+.main-subscribe {display:none !important}
+
+.main-calendar {display:none !important}
+
+.doc-icon img {position:absolute !important; left:0 !important; top:0 !important; background:none !important}
+.docs-item a {color:#000 !important}
+.docs-item-type {color:#737373 !important}
+
+.events-type {margin:24px 0 0 0 !important}
+.event-group a {color:#000 !important}
+.event-title a {color:#000 !important}
+.event-info-tag a {color:#000 !important}
+.event-info-tag {position:relative !important; background:none !important}
+.event-info-tag img {position:absolute !important; left:0 !important; top:4px !important}
+.event-info-group a {color:#000 !important}
+
+.gallery-preview {display:none !important}
+.back-link {display:none !important}
+
+.comments {display:none !important}
+
+.directions {margin-top:0 !important}
+.directions-item {background:none !important; border-radius:0 !important; border-top:2px solid #b2b2b2 !important; padding:55px 0 !important; margin:0 !important}
+.directions-item:first-child {border-top:none !important; padding-top:0 !important}
+.directions-item-icon {display:none !important}
+.directions-item-tasks {display:none !important}
+.directions-item-link {display:none !important}
+
+.content-ctrl-text {color:#000 !important}
+.content-ctrl-prev {display:none !important}
+.content-ctrl-next {display:none !important}
+.content-ctrl-close {display:none !important}
+
+.tasks-item-title-events {display:none !important}
+.tasks-item-title-sub {color:#000 !important}
+
+.tasks {margin-top:-24px !important}
+.tasks-item {background:none !important; border-radius:0 !important; border-top:2px solid #b2b2b2 !important; padding:40px 0 40px 95px !important; margin:0 !important}
+.tasks-item:first-child {border-top:none !important}
+.tasks-item-title {padding:0 !important}
+.tasks-item-number {background:none !important; box-sizing:border-box !important; color:#000 !important; border:2px solid #b2b2b2 !important; line-height:29px !important}
+
+.task-about-row-title {color:#000 !important}
+.task-event-group a  {color:#000 !important}
+.task-event-info-tag {position:relative !important; background:none !important}
+.task-event-info-tag img {position:absolute !important; left:0 !important; top:4px !important}
+.task-event-info-tag a {color:#000 !important}
+
+.task-steps {display:none !important}
+.task-steps-print {border-top:2px solid #b2b2b2 !important; border-bottom:2px solid #b2b2b2 !important; padding:30px 0 !important}
+.task-steps-print h2 {margin:0 !important}
+.task-steps-print+h3 {margin-top:30px !important}
+
+.task-menu {border-top:2px solid #b2b2b2 !important; font-size:20px !important; font-weight:bold !important; line-height:24px !important; padding:30px 0 0 0 !important}
+.task-menu li {display:none !important; padding-bottom:0 !important; margin:0 !important}
+.task-menu ul li.active {display:block !important}
+.task-menu ul li.active:after {display:none !important}
+.task-menu ul li.active a {color:#000 !important}
+
+.task-tabs:before {display:none !important}
+.task-tabs:after {display:none !important}
+
+.window-open body {overflow:visible !important}
+.window-open .wrapper {-webkit-filter:none !important; -moz-filter:none !important; -o-filter:none !important; -ms-filter:none !important; filter:none !important}
+.window-open footer {-webkit-filter:none !important; -moz-filter:none !important; -o-filter:none !important; -ms-filter:none !important; filter:none !important}
+
+.window {display:none !important}
+
+.challenges-item {background:none !important; border-radius:0 !important; border-top:2px solid #b2b2b2 !important; padding:0 0 24px 0 !important; margin:0 !important}
+.challenges-item:first-child {border-top:none !important}
+.challenges-item-header-arrow {display:none !important}
+.challenges-item-header-left {width:50% !important}
+.challenges-item-header-right {width:50% !important}
+.challenges-item-header-icon {background:none !important}
+.challenges-item-header-icon .on-print {dislay:inline-block !important}
+.challenges-item-header-right .challenges-item-header-icon {float:left !important}
+.challenges-item-header-right .challenges-item-header-content {margin:0 0 0 77px !important}
+.challenges-item-more-left {padding-left:77px !important; padding-right:0 !important}
+.challenges-item-more-right {padding-left:77px !important; padding-right:0 !important}
+.challenges-item-more-links {display:none !important}
+
+.programms-menu {display:none !important}
+.similars-link {display:none !important}
+.similars-list {display:block !important}
+.similars-list > p:first-child {margin-top:0 !important}
+.programms-list {height:auto !important}
+.programms-item {position:relative !important; left:auto !important; top:auto !important}
+
+.nioktr-item-link-icon-img {width:61px !important; height:61px !important; background:none !important; border:2px solid #b2b2b2 !important; line-height:61px !important}
+.nioktr-item-link-icon-img .on-print {display:inline-block !important}
+.nioktr-item.open .nioktr-item-link-icon-img {background:none !important; border:2px solid #000 !important}
+.nioktr-item-link-title {color:#000 !important}
+.nioktr-item-link-title-text {color:#000 !important; border-bottom:none !important}
+.nioktr-item-content-wrap {background:none !important; border:2px solid #000 !important}
+.nioktr-item-link-icon-img .nioktr-item-link-icon-img-arrow {position:absolute !important; left:50% !important; bottom:-24px !important; margin-left:-11px !important; display:none !important; z-index:2 !important}
+.nioktr-item.open .nioktr-item-link-icon-img .nioktr-item-link-icon-img-arrow {display:block !important}
+.nioktr-item.open .nioktr-item-link-icon-img:after {display:none !important}
+
+.indicators-group {padding:35px 0 !important; background:none !important; border-radius:0 !important; border-top:2px solid #b2b2b2 !important; margin:0 !important}
+.indicators-group-header-icon .on-print {display:inline-block !important}
+.indicators-group-header-arrow {display:none !important}
+.indicators-group-inner {padding-left:77px !important}
+.indicators-group-inner ul {list-style:none !important; padding-top:0 !important}
+.indicators-group-inner ul li a {color:#000 !important; text-decoration:none !important}
+.indicators-group-inner-parent {border-bottom:none !important}
+.indicators-group-inner ul li ul li {padding-left:24px !important}
+.indicators-group-inner ul li ul li:after {display:none !important}
+.indicators-group-inner ul li ul li img {position:absolute !important; left:0 !important; top:19px !important}

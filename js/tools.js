@@ -1,3 +1,7 @@
+$(window).on('load', function() {
+//Будет ждать загрузки только DOM-дерева
+    $('#no-block').removeAttr("id");
+});
 $(document).ready(function() {
 
     $('.council').each(function() {
@@ -500,6 +504,7 @@ $(window).on('load', function() {
         });
         if (curWidth > $('.header-submenu-1-wrap').width()) {
             var curIndex = $('.header-submenu-1-item').index($('.header-submenu-1-item.active'));
+            curIndex = curIndex -1;
             if (curIndex < 0) {
                 curIndex = 0;
             }
@@ -513,15 +518,13 @@ $(window).on('load', function() {
                 variableWidth: true,
                 prevArrow: '<button type="button" class="slick-prev"></button>',
                 nextArrow: '<button type="button" class="slick-next"></button>',
-                initialSlide: 0,
-                slidesToShow: 5,
+                initialSlide: curIndex,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 responsive: [
                     {
                         breakpoint: 768,
                         settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 0,
                             variableWidth: false
                         }
                     }
@@ -802,3 +805,4 @@ $(window).on('load', function() {
         });
     });
 });
+

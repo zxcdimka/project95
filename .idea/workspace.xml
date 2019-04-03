@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a277d590-4f33-4d26-a02f-055b642dbedf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/00_typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/00_typography.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_dijest.html" beforeDir="false" afterPath="$PROJECT_DIR$/05_dijest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/main-page.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/main-page.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tools.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="1450" column="27" lean-forward="true" selection-start-line="1450" selection-start-column="27" selection-end-line="1450" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tools.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/tools.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="521" column="31" selection-start-line="521" selection-start-column="31" selection-end-line="521" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05_dijest.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_dijest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="258" column="85" selection-start-line="258" selection-start-column="85" selection-end-line="258" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00_typography.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_typography.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-818">
+              <caret line="162" column="38" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
+              <folding>
+                <element signature="e#10753#10759#0" expanded="true" />
+                <element signature="e#10778#10784#0" expanded="true" />
+                <element signature="e#10926#10932#0" expanded="true" />
+                <element signature="e#10951#10957#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>active</find>
+      <find>.main-page .wrapper</find>
+      <find>header-menu-col-title</find>
+      <find>no-block</find>
+      <find>.nav-inner .slick-next</find>
+      <find>header-submenu-1</find>
+      <find>initialSlide</find>
+      <find>.nav-inner .slick-list .header-submenu-1-item:last-child</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/00_typography.html" />
+        <option value="$PROJECT_DIR$/js/tools.js" />
+        <option value="$PROJECT_DIR$/05_dijest.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/js/jquery-ui-1.12.1.custom/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1289" />
+    <option name="y" value="-8" />
+    <option name="width" value="1278" />
+    <option name="height" value="982" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project95-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project95-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\project95-master\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\project95-master\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a277d590-4f33-4d26-a02f-055b642dbedf" name="Default" comment="" />
+      <created>1554302343325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554302343325</updated>
+      <workItem from="1554302348638" duration="159000" />
+      <workItem from="1554302553886" duration="8721000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8880000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1272" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1828479" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/images/main-page.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/main-news-rss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_typography.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-818">
+          <caret line="162" column="38" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
+          <folding>
+            <element signature="e#10753#10759#0" expanded="true" />
+            <element signature="e#10778#10784#0" expanded="true" />
+            <element signature="e#10926#10932#0" expanded="true" />
+            <element signature="e#10951#10957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="521" column="31" selection-start-line="521" selection-start-column="31" selection-end-line="521" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_dijest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="258" column="85" selection-start-line="258" selection-start-column="85" selection-end-line="258" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="1450" column="27" lean-forward="true" selection-start-line="1450" selection-start-column="27" selection-end-line="1450" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

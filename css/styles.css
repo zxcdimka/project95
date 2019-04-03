@@ -332,6 +332,7 @@ header {background:#6697b5 url(../images/header.jpg) no-repeat center top; }
     .header-menu-col-list ul li a:hover{ background-color: rgb(1,1,1,0.2);}
     .header-menu-col-list ul li a{position: inherit;    z-index: 5;}
     .header-menu-col-title.open{background-color: rgb(1,1,1,0.1)}
+    .header-menu-col-title.active{background-color: rgb(1,1,1,0.1)}
     .header-menu-col-title.open+.header-menu-col-list { height: 100%; display:block; background-color: rgb(1,1,1,0.1)}
     .header-menu-col-add {line-height:24px}
     .header-menu-col-add {position:absolute; left:0; bottom:-2px; right:0}
@@ -344,6 +345,7 @@ header {background:#6697b5 url(../images/header.jpg) no-repeat center top; }
 
 }
 @media screen and (max-width:1139px) {
+    .header-menu-col-title{padding-left: 15px}
     .header-menu-col-list ul li{margin: 18px 0;}
     .header-menu-wrap {margin:0; position:relative; padding:42px 0 213px 0}
     .header-menu-col {float:none; width:auto; padding:0; border-top:1px solid rgba(255, 255, 255, .4)}
@@ -351,14 +353,17 @@ header {background:#6697b5 url(../images/header.jpg) no-repeat center top; }
     .header-menu-col-title a {display:block; padding:23px 60px 23px 0; position:relative}
     .header-menu-col-title a:after {content:""; display:block; width:17px; height:10px; background:url(../images/mobile-menu-arrow.png); position:absolute; right:15px; top:30px}
     .header-menu-col-title.open a:after {transform:rotate(-180deg)}
+    .header-menu-col-title.active{background-color: rgb(1,1,1,0.1);}
     .header-menu-col-list {display:none; font-size:16px}
     .header-menu-col-list ul {padding:0 0 10px 0; margin:-13px 0 0 0}
+    .header-menu-col-list ul li{padding-left: 15px;}
+    .header-menu-col-list ul li.active{background-color: rgb(1,1,1,0.2); margin: 9px 0; padding: 9px 0 9px 15px}
     .header-menu-col-title.open+.header-menu-col-list {display:block}
     .header-menu-col-add {line-height:24px}
     .header-menu-col-add {position:absolute; left:0; bottom:0; right:0}
     .header-menu-col-add ul {padding:0}
     .header-menu-col-add ul li {margin:0; border-top:1px solid rgba(255, 255, 255, .4)}
-    .header-menu-col-add ul li a {display:block; padding:23px 0}
+    .header-menu-col-add ul li a {display:block; padding:23px 0 23px 15px}
 }
 
 .header-search {float:right; margin:50px 20px 0 0; position:relative}
@@ -411,19 +416,21 @@ header {background:#6697b5 url(../images/header.jpg) no-repeat center top; }
 
 */
 nav {float:left; width:100%; }
+/*
 .nav-inner .slick-list.draggable:after{background: url("/images/slid.png");      content: ""; display: block; height: calc(100% - 40px); right: 0; position: absolute; top: 20px; width: 20px;}
+*/
 .nav-inner .slick-list{ display: block !important; width:91% !important; padding:20px 0 19px 0 !important}
 .nav-inner .slick-list  {display:table; width:100%; margin:0; padding:0; list-style:none; font-weight:bold; font-size:12px; line-height:16px; text-transform:uppercase}
 .nav-inner .slick-list  .header-submenu-1-item {    float: initial !important; display:table-cell; vertical-align:middle; margin:0; padding:0 38px 4px 38px; border-left:1px solid rgba(240, 244, 251, .2); position:relative}
 .nav-inner .slick-list  .header-submenu-1-item:first-child {border-left:none; padding-left:0}
-.nav-inner .slick-list  .header-submenu-1-item:last-child {padding-right:0}
+
 .nav-inner .slick-list  .header-submenu-1-item:before {display:none}
 .nav-inner .slick-list  .header-submenu-1-item.active {text-shadow:0 2px 3px rgba(46, 30, 17, .41)}
 .nav-inner .slick-list  .header-submenu-1-item.active:after { content:"";width:100%; display:block; position:absolute; left: 0; bottom:-19px; right:0; height:5px; background:#f0f4fb}
 .nav-inner .slick-list  .header-submenu-1-item a {color:#fff; text-decoration:none}
 .nav-inner .slick-list  .header-submenu-1-item a:hover {text-decoration:underline}
 .nav-inner .slick-prev,
-.nav-inner .slick-next {display:block; position:absolute; z-index:2; top:20px; width:35px; height:35px; border:none; border-radius:0; margin:0; padding:0; outline:none; -webkit-appearance:none; cursor:pointer; background:url(../images/header-submenu-2-arrows-white.png)}
+.nav-inner .slick-next {display:block; position:absolute; z-index:2; top: 25px; width:35px; height:35px; border:none; border-radius:0; margin:0; padding:0; outline:none; -webkit-appearance:none; cursor:pointer; background:url(../images/header-submenu-2-arrows-white.png)}
 .nav-inner .slick-prev {right:47px}
 .nav-inner .slick-prev:hover {background-position:left -36px}
 .nav-inner .slick-next {right:0; background-position:-36px top}
@@ -1448,5 +1455,12 @@ a.indicators-tree-group-item-header-inner:hover .indicators-tree-group-item-head
     .categiri .kat-mat{  display: block; width: 100%;}
     .categiri .god-rublic{  padding-left: 0; margin-top: 20px;}
     .categiri .god-rublic select{ width: 100%;}
+}
+
+#no-block{    display: none;}
+
+.button-dow{    text-decoration: none;    color: white;    font-size: 14px;    font-weight: 600;    position: relative;    display: block;    width: fit-content;    width: -moz-fit-content;    height: 38px;    border-radius: 3px;    background: #fe6600;    margin: 0;    line-height: 1;    padding: 12px 12px 9px 32px;    outline: none;    border: none;    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    box-sizing: border-box;    cursor: pointer;    margin-top: 26px;}
+.button-dow:hover{    background: #BF5800;    color: white;}
+.button-dow:after{    content: '';    left: 10px;    top: 11px;    width: 14px;    height: 16px;    position: absolute;    background: url("/images/download-button.png");
 }
 
